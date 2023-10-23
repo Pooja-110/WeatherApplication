@@ -17,37 +17,36 @@
         android:clickable="true"
         android:focusable="true"
         android:queryHint="Search"
-        android:searchIcon="@drawable/search"
         app:iconifiedByDefault="false"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:queryHint="Search for a City"
         app:showAsAction="always|collapseActionView" />
 
+
     <com.airbnb.lottie.LottieAnimationView
         android:id="@+id/anim"
         android:layout_width="189dp"
         android:layout_height="170dp"
-        android:layout_marginStart="1dp"
-        android:layout_marginTop="142dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="212dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:lottie_autoPlay="true"
         app:lottie_loop="true"
         app:lottie_rawRes="@raw/sun" />
 
-
     <TextView
         android:id="@+id/cityname"
-        android:layout_width="189dp"
-        android:layout_height="39dp"
-        android:layout_marginStart="212dp"
-        android:layout_marginTop="140dp"
+        android:layout_width="241dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="128dp"
         android:drawableLeft="@drawable/loctaion"
         android:drawablePadding="15dp"
         android:fontFamily="@font/merriweathersans_medium"
         android:textColor="@color/black"
-        android:textSize="20sp"
+        android:textSize="25sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -107,8 +106,8 @@
         android:id="@+id/weather"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="48dp"
-        android:layout_marginTop="320dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="384dp"
         android:fontFamily="@font/merriweathersans_regular"
         android:text="SUNNY"
         android:textColor="@color/black"
@@ -133,16 +132,16 @@
 
     <TextView
         android:id="@+id/date"
-        android:layout_width="108dp"
-        android:layout_height="20dp"
+        android:layout_width="138dp"
+        android:layout_height="24dp"
         android:layout_marginTop="472dp"
 
         android:fontFamily="@font/merriweathersans_regular"
+        android:paddingLeft="1dp"
         android:text="25 January 2023"
         android:textColor="@color/black"
-        android:paddingLeft="1dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.541"
+        app:layout_constraintHorizontal_bias="0.604"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

@@ -112,7 +112,7 @@ class MainActivity : AppCompatActivity() {
                     binding.root.setBackgroundResource(R.drawable.colud_background)
                     binding.anim.setAnimation(R.raw.cloud)
                 } else {
-                    binding.root.setBackgroundResource(R.drawable.cloudy_night)
+                    binding.root.setBackgroundResource(R.drawable.colud_background)
                     binding.anim.setAnimation(R.raw.clearmoon)
                 }
             }
@@ -126,11 +126,11 @@ class MainActivity : AppCompatActivity() {
             }
             else -> {
                 if (isDaytime) {
-                    binding.root.setBackgroundResource(R.drawable.sunny_background)
+                    binding.root.setBackgroundResource(R.drawable.sunnybg)
                     binding.anim.setAnimation(R.raw.sun)
                 } else {
                     binding.root.setBackgroundResource(R.drawable.ngt)
-                   binding.anim.setAnimation(R.raw.clearmoon)
+                    binding.anim.setAnimation(R.raw.moon)
                 }
             }
         }
