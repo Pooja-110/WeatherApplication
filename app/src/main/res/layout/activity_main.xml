@@ -106,7 +106,7 @@
         android:id="@+id/weather"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="52dp"
+        android:layout_marginStart="72dp"
         android:layout_marginTop="384dp"
         android:fontFamily="@font/merriweathersans_regular"
         android:text="SUNNY"
@@ -141,7 +141,7 @@
         android:text="25 January 2023"
         android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.604"
+        app:layout_constraintHorizontal_bias="0.556"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

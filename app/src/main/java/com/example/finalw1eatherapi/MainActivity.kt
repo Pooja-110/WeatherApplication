@@ -116,17 +116,17 @@ class MainActivity : AppCompatActivity() {
                     binding.anim.setAnimation(R.raw.clearmoon)
                 }
             }
-            "Light Rain", "Drizzle", "Moderate Rain", "Showers", "Heavy Rain" -> {
+            "Rain", "Drizzle", "Moderate Rain", "Showers", "Heavy Rain" -> {
                 binding.root.setBackgroundResource(R.drawable.rain_background)
                 binding.anim.setAnimation(R.raw.rain)
             }
-            "Light Snow", "Moderate Snow", "Heavy Snow", "Blizzard" -> {
+            "Snow","Light Snow", "Moderate Snow", "Heavy Snow", "Blizzard" -> {
                 binding.root.setBackgroundResource(R.drawable.snow_background)
                 binding.anim.setAnimation(R.raw.snow)
             }
             else -> {
                 if (isDaytime) {
-                    binding.root.setBackgroundResource(R.drawable.sunnybg)
+                    binding.root.setBackgroundResource(R.drawable.sunny_background)
                     binding.anim.setAnimation(R.raw.sun)
                 } else {
                     binding.root.setBackgroundResource(R.drawable.ngt)
@@ -156,4 +156,5 @@ class MainActivity : AppCompatActivity() {
         val format = SimpleDateFormat("dd MMMM yyyy", Locale.getDefault())
         return format.format(date)
     }
+
 }
