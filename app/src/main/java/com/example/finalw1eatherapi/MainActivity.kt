@@ -120,7 +120,7 @@ class MainActivity : AppCompatActivity() {
                 binding.root.setBackgroundResource(R.drawable.rain_background)
                 binding.anim.setAnimation(R.raw.rain)
             }
-            "Snow","Light Snow", "Moderate Snow", "Heavy Snow", "Blizzard" -> {
+            "Snow","Light Snow", "Moderate Snow", "Smoke","Heavy Snow", "Blizzard" -> {
                 binding.root.setBackgroundResource(R.drawable.snow_background)
                 binding.anim.setAnimation(R.raw.snow)
             }

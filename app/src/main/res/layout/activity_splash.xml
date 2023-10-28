@@ -8,10 +8,10 @@
     tools:context=".SplashActivity">
 
     <TextView
-        android:layout_width="324dp"
-        android:layout_height="135dp"
+        android:layout_width="322dp"
+        android:layout_height="86dp"
         android:layout_marginStart="28dp"
-        android:layout_marginTop="144dp"
+        android:layout_marginTop="160dp"
         android:fontFamily="@font/merriweathersans_bold"
         android:paddingLeft="40sp"
         android:text="Stay ahead of the \n weather with our app"

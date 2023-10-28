@@ -274,7 +274,7 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/merriweathersans_medium"
                     android:gravity="center"
-                    android:text="Sunny"
+                    android:text="Weather"
                     android:textAllCaps="true"
                     android:textColor="@color/black" />
 
